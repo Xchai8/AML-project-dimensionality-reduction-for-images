@@ -32,10 +32,10 @@ The dataset you will be working with is available for download here:
 
 ## How to use 
 
-The models are in the Google Drive, you need to down load from [here](https://drive.google.com/drive/folders/1YA2ljEgFa21XNYc-VkEGUdpImxp1wJi3?usp=share_link)
+The models are in the Model file which is in my Google Drive, you need to down load from [here](https://drive.google.com/drive/folders/1YA2ljEgFa21XNYc-VkEGUdpImxp1wJi3?usp=share_link).
 
 This file doesn't include 4 original dataset, so you need to load these data before running my code.  
 
-Training: Training code do not need any parameters to input. It generates totally 7 models in file Model and 2 numpy arrays in file Dataset. And these models and data will be use in test code.     
+Training: Training code do not need any parameters to input. It generates totally 10 models in file Model and 3 numpy arrays in file Dataset. And these models and data will be use in test code.     
 
 Test: Test code has already loaded the datasets and resampled dataset, and all models have been loaded too. Except running all codes, you do not need any operation in Jupyter.
