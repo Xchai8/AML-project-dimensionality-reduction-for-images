@@ -17,6 +17,21 @@ The dataset you will be working with is available for download here:
 * ["data_test.npy"](https://ufl.instructure.com/files/72621555/download?download_frd=1)
 * ["labels_test.npy"](https://ufl.instructure.com/files/72621857/download?download_frd=1)
 
-## Edit this READ-ME
+## Files contained
 
-Please edit this read-me file with information about your project. There are no requirements for this readme file, but you can find a [template here](https://github.com/catiaspsilva/README-template).
+1. training.ipynb ---- code used for training the datasets.
+2. test.ipynb ---- code used for testing the datasets.
+3. Project 2 - Dimentionality Reduction.ipynb ---- description of project 1
+4. Model ---- contains all models generated from the training.ipynb.
+5. Dataset ---- contains LDA, t-SNE and PCA components I get from question 3 and original dataset.
+6. Project_1_report.docx ---- report in docx form
+7. Project_1_report.pdf ---- report in pdf form
+8. training.pdf ---- pdf form of training.ipynb
+9. test.pdf ---- pdf form of test.ipynb
+10. README.md ---- this file.
+
+## How to use 
+
+This file doesn't include 4 original dataset, so you need to load these data before running my code.
+Training: Training code do not need any parameters to input. It generates totally 7 models in file Model and 2 numpy arrays in file Dataset. And these models and data will be use in test code.     
+Test: Test code has already loaded the datasets and resampled dataset, and all models have been loaded too. Except running all codes, you do not need any operation in Jupyter.
