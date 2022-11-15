@@ -32,6 +32,6 @@ The dataset you will be working with is available for download here:
 
 ## How to use 
 
-This file doesn't include 4 original dataset, so you need to load these data before running my code.
+This file doesn't include 4 original dataset, so you need to load these data before running my code.          
 Training: Training code do not need any parameters to input. It generates totally 7 models in file Model and 2 numpy arrays in file Dataset. And these models and data will be use in test code.     
 Test: Test code has already loaded the datasets and resampled dataset, and all models have been loaded too. Except running all codes, you do not need any operation in Jupyter.
